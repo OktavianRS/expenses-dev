@@ -36,6 +36,7 @@
 * [Mock](http://www.voidspace.org.uk/python/mock/) mocking and testing Library
 * [Responses](https://github.com/getsentry/responses) a utility for mocking out the Python Requests library
 
+You need to have node.js, git to be installed
 
 ## Readme Notes
 
@@ -47,17 +48,7 @@
 
 * `$ git clone https://github.com/OktavianRS/expenses-dev`
 * `$ cd expenses-dev`
-* `$ git submodule init`
-* `$ git submodule update`
 * `$ ./scripts/get_static_validation.sh`
-
-
-Remember that when you copy this repository for a new project you need to add the scripts external module using:
-
-* `$ git submodule add https://github.com/Seedstars/culture-scripts scripts`
-
-NOTE: This is only needed in case you copy this code to a new project. If you only clone or fork the repository, the submodule is already configured
-
 
 ## Installation
 
